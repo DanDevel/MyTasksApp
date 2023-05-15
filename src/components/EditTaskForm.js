@@ -56,14 +56,14 @@ const EditTaskForm = () => {
 
   return (
     <Box p={5} shadow="md" borderWidth="1px" flex="1" borderRadius="md">
-      <Heading as="h2" size="xl">Editar Tarefa</Heading>
+      <Heading as="h2" size="xl">Edit Task</Heading>
       <form onSubmit={handleSubmit}>
         <FormControl mt={4}>
-          <FormLabel>Título:</FormLabel>
+          <FormLabel>Title:</FormLabel>
           <Input type="text" value={title} onChange={e => setTitle(e.target.value)} required />
         </FormControl>
         <FormControl mt={4}>
-          <FormLabel>Descrição:</FormLabel>
+          <FormLabel>Description:</FormLabel>
           <Input type="text" value={description} onChange={e => setDescription(e.target.value)} required />
         </FormControl>
         <FormControl mt={4}>
