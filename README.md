@@ -101,6 +101,21 @@ The second limitation is regarding integration with the Google API. Initially, i
 
 These limitations are temporary, and I hope to resolve them in the future. As soon as my account has access to the necessary resources, or when I get an account that allows sharing access with third parties, I will be able to add these functionalities to the project.
 
+
+# Testing and Continuous Integration with GitHub Actions
+We are using GitHub Actions to automate the execution of tests in our project with each push or pull request, aiming to ensure code quality and prevent regressions.
+
+GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) tool that allows you to create custom workflows to automate your software development process straight from GitHub.
+
+In this project, we have a workflow set up to install dependencies, run tests, and report the results directly in the GitHub interface. This helps us quickly identify any issues that may have been introduced in new code changes.
+
+Furthermore, by using GitHub Actions, we encourage a culture of testing within our team, ensuring that all members are aware of the importance of tests and contribute to maintaining the health of our code.
+
+Remember that the configuration for GitHub Actions is located in the .github/workflows/main.yml file at the root of our project.
+
+It is important to emphasize that tests are a fundamental part of our development process and play a crucial role in preventing bugs and regressions before they reach production. We are committed to maintaining and improving the quality of our code and believe that test automation is an important step in this direction.
+
+
 ## Contribution
 Contributions are always welcome! Feel free to open an Issue or a Pull Request.
 
