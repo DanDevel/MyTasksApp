@@ -90,7 +90,7 @@ const EditTaskForm = () => {
           <option value="to do">To Do</option>
         </Select>
       </FormControl>
-        <Button colorScheme="blue" type="submit" mt={4}>Atualizar Tarefa</Button>
+        <Button colorScheme="blue" type="submit" mt={4}>Update Task</Button>
       </form>
     </Box>
   );
