@@ -19,10 +19,15 @@ The application should now be running and available for access at http://localho
 
 ## Folder Structure
 src/: Where all the frontend source code is located.
+
 server/: Where all the backend source code is located.
+
 server/models/: Contains the Sequelize models.
+
 server/routes/: Defines all the API routes.
+
 server/controllers/: Contains the control logic for data handling.
+
 server/config/: Server and database settings.
 
 ## Features
@@ -38,12 +43,19 @@ Dashboard: Provides an overview of tasks by priority in a pie chart and a bar ch
 
 ## Technologies used
 React.js
+
 Chakra UI
+
 Express.js
+
 Sequelize
+
 PostgreSQL
+
 axios
+
 react-router-dom
+
 recharts
 
 
