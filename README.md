@@ -89,6 +89,18 @@ Remember that the createdAt and updatedAt fields are managed automatically by Se
 
 Finally, it's worth noting that this is a very basic database structure. As the application grows and becomes more complex, it may be necessary to add more tables and establish relationships between them. However, for a simple task management application, this structure should be sufficient.
 
+
+# Project Limitations
+This project has some significant limitations that were encountered during development. These limitations are directly related to technical aspects and permissions, and it's crucial for users to be aware of them when interacting with the project.
+
+## Docker
+The first limitation is related to Docker installation. Although Docker is an extremely useful and widely used tool for creating and managing isolated development environments, the Docker installation on the Windows operating system has presented restrictions. These restrictions are tied to the nature of Windows itself, which limits the implementation of some Docker features.
+
+## Google API Integration
+The second limitation is regarding integration with the Google API. Initially, it was planned to integrate the project with one of Google's APIs to add additional features to the app. However, this integration was not possible due to access restrictions to Google's API. My Google account does not have free access to Google's API, and I don't have an account to share with third parties.
+
+These limitations are temporary, and I hope to resolve them in the future. As soon as my account has access to the necessary resources, or when I get an account that allows sharing access with third parties, I will be able to add these functionalities to the project.
+
 ## Contribution
 Contributions are always welcome! Feel free to open an Issue or a Pull Request.
 
@@ -97,3 +109,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 If you have any questions, feel free to reach out.
+
+
