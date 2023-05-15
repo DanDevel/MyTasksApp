@@ -38,9 +38,13 @@ server/config/: Server and database settings.
 
 ## Features
 List Tasks: Displays a list of all existing tasks. Each task has a title, description, owner, deadline, and priority. There's also an avatar next to the owner's name for better visualization.
+
 Create Task: Allows the user to create a new task by providing details such as title, description, owner, deadline, and priority.
+
 Edit Task: Allows the user to edit the details of an existing task.
+
 Delete Task: Allows the user to delete an existing task. Before deletion, the user needs to confirm the action by inputting a random number provided by the system.
+
 Dashboard: Provides an overview of tasks by priority in a pie chart and a bar chart. Additionally, it provides the total task count and the details of the last created task.
 
 ## Technologies used
