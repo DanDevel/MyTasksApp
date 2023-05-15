@@ -65,6 +65,30 @@ react-router-dom
 
 recharts
 
+# DATABASE POSTGRESQL, SEQUELIZE ORM AND NODE:
+Our task management application uses PostgreSQL as its database management system. It uses Sequelize, an ORM (Object-Relational Mapping) for Node.js, to facilitate communication between our application and the database.
+
+Our database structure is quite simple, consisting of a single table called Tasks. Each task in the Tasks table has the following fields:
+
+id - A unique identifier for each task. This is the primary key field.
+title - The title of the task.
+
+description - A detailed description of the task.
+
+limit - The deadline for the completion of the task.
+
+priority - The priority of the task, which can be high ('a') or low ('p').
+
+owner - The owner of the task, i.e., the person responsible for it.
+
+createdAt - The date and time when the task was created.
+
+updatedAt - The date and time when the task was last updated.
+
+Remember that the createdAt and updatedAt fields are managed automatically by Sequelize. Whenever a record is created or updated, Sequelize updates these fields with the current time.
+
+Finally, it's worth noting that this is a very basic database structure. As the application grows and becomes more complex, it may be necessary to add more tables and establish relationships between them. However, for a simple task management application, this structure should be sufficient.
+
 ## Contribution
 Contributions are always welcome! Feel free to open an Issue or a Pull Request.
 
