@@ -25,10 +25,15 @@ The NODE SERVER.JS should now be running and available for access at http://loca
 ## Folder Structure
 
 src/: Where all the frontend source code is located.
+
 server/: Where all the backend source code is located.
+
 server/models/: Contains the Sequelize models.
+
 server/routes/: Defines all the API routes.
+
 server/controllers/: Contains the control logic for data handling.
+
 server/config/: Server and database settings.
 
 ## Features
