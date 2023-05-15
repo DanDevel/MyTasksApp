@@ -50,12 +50,19 @@ Dashboard: Provides an overview of tasks by priority in a pie chart and a bar ch
 ## Technologies used
 
 React.js
+
 Chakra UI
+
 Express.js
+
 Sequelize
+
 PostgreSQL
+
 axios
+
 react-router-dom
+
 recharts
 
 ## Contribution
